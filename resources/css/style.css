@@ -1,0 +1,67 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Playfair Display", serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 1.2;
+   color: black;]
+}
+
+/* html {
+   background-color: white;
+   color: black; #456BF2;
+   font-family: 'Playfair Display';
+   font-weight: 400;
+   font-size: 20px;
+   text-rendering: optimizeLegibility;
+} */
+
+.row {
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+header {
+   height: 100vh;
+   background-image: url(img/laptop_cropped.jpg);
+   background-size: cover;
+   background-position: top;
+}
+
+.hero-text-box {
+   position: absolute;
+   width: 1140px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+h1 {
+   margin-top: 0;
+   margin-bottom: 20px;
+   /*color: #fff;*/
+   font-size: 300%;
+   font-weight: 500;
+}
+
+.btn {
+   display: inline-block;
+   font-family: "Roboto";
+   padding: 8px 16px;
+   font-weight: 400;
+   letter-spacing: 1px;
+   text-decoration: none;
+   border-radius: 6px;
+   color: white;
+}
+
+.btn-full {
+   background-color: #897B76;
+   color: white;
+   border: 1px solid #897B76;
+}
